@@ -1,0 +1,40 @@
+cd desktop
+composer create-project --prefer-dist laravel/laravel Kizolditjuk
+composer require laravel/breeze --dev
+
+--ab létrehozása + env
+ 
+npm install
+npm run dev
+
+--controllerek létrehozása
+
+--controllerek megírása az alap függvényekekkel, API végpontok létrehozása (4 függvény)
+
+		(csak mostani rész)php artisan make:controller Bejegyzesek -m
+		(csak mostani rész)php artisan make:controller Tevekenysegek -m
+
+--modellek létrehozása
+
+		(csak mostani rész)php artisan make:model Bejegyzesek -m
+		(csak mostani rész)php artisan make:model Tevekenysegek -m
+
+--modellek/ adattáblák feltöltése minta szerint oszlopokkal
+
+		(csak mostani rész)--user bővítése, legyen admin (pl.: "admin_e" mező)
+
+--modellek feltöltése jó adattagokkal
+
+php artisan migrate
+
+--seeder vagy localhoston belül próba adatok
+
+--API-k létrehozása
+
+--weboldalak elkészítése, html css js
+
+--ajax.js Ajax oszály
+
+--formok létrehozása
+
+--js fájlok megírása API-kkal
